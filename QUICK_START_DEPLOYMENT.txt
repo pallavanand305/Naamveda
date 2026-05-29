@@ -1,0 +1,49 @@
+🚀 QUICK DEPLOYMENT REFERENCE
+
+═══════════════════════════════════════════════════════════
+STEP 1: RAILWAY (Backend) - 10 minutes
+═══════════════════════════════════════════════════════════
+
+1. Go to: https://railway.app
+2. Login with GitHub
+3. New Project → Deploy from GitHub
+4. Select "Naamveda" repo
+5. Settings → Root Directory: backend
+6. New → Database → PostgreSQL
+7. Add environment variables (see full guide)
+8. Generate Domain
+9. Copy backend URL
+
+═══════════════════════════════════════════════════════════
+STEP 2: VERCEL (Frontend) - 10 minutes
+═══════════════════════════════════════════════════════════
+
+1. Go to: https://vercel.com/signup
+2. Continue with GitHub
+3. Import "Naamveda" project
+4. Root Directory: frontend
+5. Add environment variables:
+   - NEXT_PUBLIC_API_URL = (your Railway URL)
+6. Deploy
+7. Copy frontend URL
+
+═══════════════════════════════════════════════════════════
+STEP 3: UPDATE CORS - 2 minutes
+═══════════════════════════════════════════════════════════
+
+1. Go back to Railway
+2. Update ALLOWED_ORIGINS with Vercel URL
+3. Update FRONTEND_URL with Vercel URL
+4. Redeploy
+
+═══════════════════════════════════════════════════════════
+DONE! TEST YOUR WEBSITE
+═══════════════════════════════════════════════════════════
+
+Open: https://naamveda.vercel.app (your URL)
+Test: Generate names
+Share: With 10-20 friends
+
+═══════════════════════════════════════════════════════════
+DETAILED GUIDE: DEPLOY_STEP_BY_STEP.md
+═══════════════════════════════════════════════════════════
