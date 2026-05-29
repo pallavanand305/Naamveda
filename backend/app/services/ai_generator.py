@@ -208,21 +208,34 @@ Generate names that parents will emotionally connect with. Make each name specia
         Uses pre-defined Indian names with real numerology
         """
         
-        # Pre-defined Indian names database
+        # Pre-defined Indian names database (30+ names for better variety)
         male_names = [
+            # Modern & Popular
             {"name": "Aarav", "meaning": "Peaceful, Calm", "origin": "Sanskrit"},
             {"name": "Arjun", "meaning": "Bright, Shining, White", "origin": "Sanskrit"},
             {"name": "Vihaan", "meaning": "Dawn, Morning", "origin": "Sanskrit"},
             {"name": "Aditya", "meaning": "Sun, Lord Surya", "origin": "Sanskrit"},
             {"name": "Reyansh", "meaning": "Ray of Light", "origin": "Sanskrit"},
             {"name": "Ayaan", "meaning": "Gift of God", "origin": "Sanskrit"},
+            {"name": "Advait", "meaning": "Unique, One", "origin": "Sanskrit"},
+            {"name": "Vivaan", "meaning": "Full of Life", "origin": "Sanskrit"},
+            {"name": "Atharv", "meaning": "Lord Ganesh, Knowledgeable", "origin": "Sanskrit"},
+            {"name": "Sai", "meaning": "Divine, Sai Baba", "origin": "Sanskrit"},
+            # Traditional & Spiritual
             {"name": "Krishna", "meaning": "Dark, Lord Krishna", "origin": "Sanskrit"},
             {"name": "Shaurya", "meaning": "Bravery, Courage", "origin": "Sanskrit"},
             {"name": "Rudra", "meaning": "Lord Shiva", "origin": "Sanskrit"},
-            {"name": "Advait", "meaning": "Unique, One", "origin": "Sanskrit"},
+            {"name": "Dhruv", "meaning": "Pole Star, Constant", "origin": "Sanskrit"},
+            {"name": "Arnav", "meaning": "Ocean, Sea", "origin": "Sanskrit"},
+            {"name": "Shivansh", "meaning": "Part of Lord Shiva", "origin": "Sanskrit"},
+            {"name": "Vedant", "meaning": "Ultimate Wisdom", "origin": "Sanskrit"},
+            {"name": "Aarush", "meaning": "First Ray of Sun", "origin": "Sanskrit"},
+            {"name": "Kabir", "meaning": "Great, Powerful", "origin": "Sanskrit"},
+            {"name": "Yash", "meaning": "Success, Fame", "origin": "Sanskrit"},
         ]
         
         female_names = [
+            # Modern & Popular
             {"name": "Ananya", "meaning": "Unique, Incomparable", "origin": "Sanskrit"},
             {"name": "Aadhya", "meaning": "First Power, Goddess Durga", "origin": "Sanskrit"},
             {"name": "Diya", "meaning": "Lamp, Light", "origin": "Sanskrit"},
@@ -233,12 +246,25 @@ Generate names that parents will emotionally connect with. Make each name specia
             {"name": "Myra", "meaning": "Sweet, Beloved", "origin": "Sanskrit"},
             {"name": "Kiara", "meaning": "Dark-haired, Pure", "origin": "Sanskrit"},
             {"name": "Avni", "meaning": "Earth", "origin": "Sanskrit"},
+            # Traditional & Spiritual
+            {"name": "Aaradhya", "meaning": "Worshipped, Blessed", "origin": "Sanskrit"},
+            {"name": "Siya", "meaning": "Goddess Sita", "origin": "Sanskrit"},
+            {"name": "Pari", "meaning": "Fairy, Angel", "origin": "Sanskrit"},
+            {"name": "Riya", "meaning": "Singer, Graceful", "origin": "Sanskrit"},
+            {"name": "Shanaya", "meaning": "First Ray of Sun", "origin": "Sanskrit"},
+            {"name": "Anvi", "meaning": "Goddess of Forest", "origin": "Sanskrit"},
+            {"name": "Ira", "meaning": "Earth, Goddess Saraswati", "origin": "Sanskrit"},
+            {"name": "Kavya", "meaning": "Poetry, Poem", "origin": "Sanskrit"},
+            {"name": "Prisha", "meaning": "Beloved, God's Gift", "origin": "Sanskrit"},
+            {"name": "Zara", "meaning": "Princess, Flower", "origin": "Sanskrit"},
         ]
         
         unisex_names = [
             {"name": "Arya", "meaning": "Noble, Honorable", "origin": "Sanskrit"},
             {"name": "Amar", "meaning": "Immortal, Eternal", "origin": "Sanskrit"},
             {"name": "Divya", "meaning": "Divine, Heavenly", "origin": "Sanskrit"},
+            {"name": "Avi", "meaning": "Sun and Air", "origin": "Sanskrit"},
+            {"name": "Daksh", "meaning": "Capable, Talented", "origin": "Sanskrit"},
         ]
         
         # Select names based on gender
