@@ -14,13 +14,28 @@ class AINameGenerator:
     """AI-powered Indian baby name generator"""
     
     def __init__(self):
-        # Check if OpenAI key is set
-        if settings.OPENAI_API_KEY and settings.OPENAI_API_KEY != "sk-your-key-here-replace-this":
+        # Check if OpenAI key is valid (not a dummy/test key)
+        dummy_keys = [
+            "sk-your-key-here-replace-this",
+            "sk-dummy-key-for-testing",
+            "sk-test",
+            "your-openai-key-here"
+        ]
+        
+        has_valid_key = (
+            settings.OPENAI_API_KEY and 
+            settings.OPENAI_API_KEY not in dummy_keys and
+            settings.OPENAI_API_KEY.startswith("sk-") and
+            len(settings.OPENAI_API_KEY) > 20
+        )
+        
+        if has_valid_key:
             self.client = OpenAI(api_key=settings.OPENAI_API_KEY)
             self.use_ai = True
         else:
             self.client = None
             self.use_ai = False
+        
         self.numerology = NumerologyEngine()
     
     def generate_names(
