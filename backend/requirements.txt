@@ -1,4 +1,4 @@
-# FastAPI Core - using versions with pre-built wheels
+# FastAPI Core
 fastapi==0.109.0
 uvicorn[standard]==0.27.0
 pydantic==2.5.3
@@ -25,7 +25,6 @@ reportlab==4.0.9
 python-dotenv==1.0.0
 httpx==0.26.0
 aiofiles==23.2.1
-pillow==10.2.0
 
 # Security
 bcrypt==4.1.2
